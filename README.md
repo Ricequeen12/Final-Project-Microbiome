@@ -1,9 +1,9 @@
-# Final-Project-Microbiome# Student-Led-Tutorial-3
+# Final-Project-Microbiome#
 # Task: Tutorial for Gene Expression Analysis Using STAR, Gene Expression Quantification, and Differential Expression Analysis
 
 ## **Objective**
 Students will:
-1. Download RNA-seq data for **mock-infected** and **COVID-19-infected** human cell lines from the provided SRA project.
+1. Download RNA-seq data for **Not-Depressed** and **Depressed** human cell lines from the provided SRA project.
 2. Perform RNA-seq alignment using **STAR**.
 3. Quantify gene expression using **FeatureCounts**.
 4. Perform differential expression analysis between mock-infected and COVID-19-infected cells using **DESeq2** (or equivalent).
@@ -38,7 +38,7 @@ There are more data available in this project, students should be free to explor
 
 ## **Tasks and Deliverables**
 ### **Part 1: Data Preparation**
-1. Download all replicates for mock and COVID-19-infected samples:
+1. Download all replicates for not Depressed and Depressed samples:
         Mock-infected: SRR11412215 to SRR11412218.
         COVID-19-infected: SRR11412227 to SRR11412230.
 ### Step 1. Create a directory for your transcriptome data
