@@ -30,10 +30,10 @@ Students will:
 ---
 ## **Dataset Description**
 The dataset comes from the **NCBI BioProject PRJNA615032**, which includes RNA-seq data for human cell lines:
-- **Mock-infected cells**:
-  - SRA Accessions: `SRR11412215`, `SRR11412216`, `SRR11412217`, `SRR11412218` (4 replicates).
-- **COVID-19-infected cells**:
-  - SRA Accessions: `SRR11412227`, `SRR11412228`, `SRR11412229`, `SRR11412230` (4 replicates).
+- **Depressed**:
+  - SRA Accessions: `SRR38158767`, `SRR38158768`, ` SRR38158770`, (3 replicates).
+- **Non-Depressed**:
+  - SRA Accessions: ` SRR38158776`, ` SRR38158783`,` SRR38158786` (3 replicates).
 There are more data available in this project, students should be free to explore these data and modify SRA accessions accordingly.
 
 ## **Tasks and Deliverables**
@@ -78,14 +78,12 @@ interact -t 4:00:00 --ntasks-per-node=48
 3. Paste the following accession numbers, **one per line**:
 
    ```
-   SRR11412215
-   SRR11412216
-   SRR11412217
-   SRR11412218
-   SRR11412227
-   SRR11412228
-   SRR11412229
-   SRR11412230
+   SRR38158767
+   SRR38158768
+   SRR38158770
+   SRR38158776
+   SRR38158783
+   SRR38158786
    ```
 
 4. Save the file and exit `vi`:
