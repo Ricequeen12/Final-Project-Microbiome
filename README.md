@@ -53,11 +53,11 @@ interact -t 4:00:00 --ntasks-per-node=48
 
    Replace `your-username` with your actual username.
 
-2. Create a new folder named `transcriptome` and move into it:
+2. Create a new folder named `finalproject` and move into it:
 
-   `mkdir -p transcriptome`
+   `mkdir -p finalproject`
 
-   `cd transcriptome`
+   `cd finalproject`
 
 3. Confirm that you are in the correct directory by typing:
 
@@ -65,7 +65,7 @@ interact -t 4:00:00 --ntasks-per-node=48
 
    Your path should look like this:
 
-   `/ocean/projects/bio260081p/your-username/transcriptome`
+   `/ocean/projects/bio260081p/your-username/finalproject`
 
 ### Step 2. Create a file containing the SRA accession numbers
 
